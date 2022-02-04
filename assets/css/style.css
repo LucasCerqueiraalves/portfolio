@@ -154,6 +154,57 @@ img {
 .contact__form textarea{
     resize: none;
 }
+
+.container{
+    display: flex; 
+    flex-direction: column;
+}
+.container a {
+    text-decoration: none;
+    color: #fff;
+}
+.container-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.areaLeft {
+    width: 50%;
+   
+}
+.areaLeft .tel {
+    display: flex;
+    margin-left: 110px;
+}
+.areaLeft .tel .icon {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.container .areaRight {
+    width: 50%;
+}
+.container .areaRight .redeSocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .areaRight .redeSocial .icon {
+    font-size: 40px;
+    padding: 10px;
+}
+.container .areaRight .redeSocial .icon:hover {
+    font-size: 45px;
+    color: blue;
+}
+.direito {
+    margin-top: 25px;
+    border-top: 2px solid #ccc;
+}
 @media screen and (max-width: 768px) {
     .nav__menu{
         position: fixed;
