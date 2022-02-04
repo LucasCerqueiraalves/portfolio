@@ -176,7 +176,7 @@ img {
 }
 .areaLeft .tel {
     display: flex;
-    margin-left: 110px;
+    margin-left: 10px;
 }
 .areaLeft .tel .icon {
     font-size: 30px;
@@ -185,25 +185,11 @@ img {
     
 }
 
-.container .areaRight {
-    width: 50%;
-}
-.container .areaRight .redeSocial {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.container .areaRight .redeSocial .icon {
-    font-size: 40px;
-    padding: 10px;
-}
-.container .areaRight .redeSocial .icon:hover {
-    font-size: 45px;
-    color: blue;
-}
+
 .direito {
     margin-top: 25px;
     border-top: 2px solid #ccc;
+    margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
     .nav__menu{
@@ -270,7 +256,7 @@ img {
 
 /*HOME*/
 .l-main{
-    margin-left: 20px;
+    margin-left: 0px;
     top: 30px !important;
    
 }
@@ -638,6 +624,9 @@ img {
     }
     .sobre {
         margin-top: 47px;
+    }
+    .tel p {
+        font-size: 13px;
     }
 }
 
