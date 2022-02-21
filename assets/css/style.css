@@ -203,7 +203,7 @@ img {
 .home__img {
     width: 429px;
     bottom: 10%;
-    height: 440px;
+    height: 200px;
 }
 .sobre {
     margin-top: -16px;
@@ -249,6 +249,7 @@ img {
     border-top: 2px solid #ccc;
     margin-bottom: 0;
 }
+
 @media screen and (max-width: 768px) {
     .nav__menu{
         position: fixed;
