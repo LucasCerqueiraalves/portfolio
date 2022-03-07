@@ -138,6 +138,13 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    
+}
+.perfilimg{
+    border-radius: 80px;
+}
+.git{
+    font-size: 80px;
 }
 
 /*Classes Css*/
@@ -632,6 +639,7 @@ img {
         width: 356px;
         height: 279px;
         bottom: 10%;
+        border-radius: 50%;
     }
 
     .about__container, .skills__container{
